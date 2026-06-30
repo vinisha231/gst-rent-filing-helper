@@ -1,0 +1,22 @@
+{
+  "month": "2027-04",
+  "month_label": "April 2027",
+  "fy": "2027-28",
+  "shop_code": "SB2",
+  "landlord_id": "sb",
+  "landlord": "SHARMILA BALADHAYANIDHI",
+  "landlord_gstin": "33BFXPS9491E1ZL",
+  "tenant": "GBS SYSTEMS AND SERVICES PVT. LTD.",
+  "tenant_gstin": "33AACCG8243L1ZH",
+  "property": "New No. 74, Old No. AA-109, 4th Avenue, Shanthi Colony, Anna Nagar, Chennai - 600040",
+  "invoice_no": "SR/01/2027-28",
+  "invoice_date": "2027-04-30",
+  "hsn_sac": "997212",
+  "rate": 18,
+  "taxable_value": 140000,
+  "cgst": 12600,
+  "sgst": 12600,
+  "total_tax": 25200,
+  "total": 165200,
+  "filed": false
+}
