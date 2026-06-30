@@ -1,0 +1,22 @@
+{
+  "month": "2027-04",
+  "month_label": "April 2027",
+  "fy": "2027-28",
+  "shop_code": "SB5",
+  "landlord_id": "sb",
+  "landlord": "SHARMILA BALADHAYANIDHI",
+  "landlord_gstin": "33BFXPS9491E1ZL",
+  "tenant": "RETAIL FIESTA PRIVATE LIMITED",
+  "tenant_gstin": "33AALCR4945H1Z5",
+  "property": "New No. 72, Old No. AA-107, 4th Avenue, Shanthi Colony, Anna Nagar, Chennai - 600040",
+  "invoice_no": "SR/03/2027-28",
+  "invoice_date": "2027-04-30",
+  "hsn_sac": "997212",
+  "rate": 18,
+  "taxable_value": 95000,
+  "cgst": 8550,
+  "sgst": 8550,
+  "total_tax": 17100,
+  "total": 112100,
+  "filed": false
+}
