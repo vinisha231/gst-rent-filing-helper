@@ -1,0 +1,22 @@
+{
+  "month": "2026-10",
+  "month_label": "October 2026",
+  "fy": "2026-27",
+  "shop_code": "PJ1",
+  "landlord_id": "pj",
+  "landlord": "PREMA JYOTHILINGAM",
+  "landlord_gstin": "33AGMPP1213A1Z2",
+  "tenant": "JKYESH RETAIL (MINIKLUB)",
+  "tenant_gstin": "33AAQFJ2717B1ZO",
+  "property": "New No. 208, Old No. AC-132, 4th Avenue, Shanthi Colony, Anna Nagar, Chennai - 600040",
+  "invoice_no": "PJ/15/2026-27",
+  "invoice_date": "2026-10-31",
+  "hsn_sac": "997212",
+  "rate": 18,
+  "taxable_value": 242550,
+  "cgst": 21830,
+  "sgst": 21830,
+  "total_tax": 43660,
+  "total": 286210,
+  "filed": false
+}
