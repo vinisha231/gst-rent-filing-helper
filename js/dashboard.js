@@ -62,8 +62,42 @@ function ownerCard(l, rows){
     '</div>';
 }
 
+// Build the month's invoice rows from the base shops plus any browser-saved
+// edits (changed rents and added shops), recomputing GST so figures stay correct.
+function buildRecordsForMonth(monthKey){
+  var ov = loadOverrides();
+  var regs = (GST_DATA.registers || {})[monthKey] || [];
+  var regByCode = {};
+  regs.forEach(function(r){ regByCode[r.shop_code] = r; });
+  var out = [];
+  (GST_DATA.shops || []).forEach(function(s){
+    var l = (GST_DATA.landlords || []).find(function(x){ return x.id === s.landlord; });
+    var reg = regByCode[s.code];
+    var g = computeGst(effectiveRent(s.code));
+    out.push({
+      shop_code: s.code, landlord_id: s.landlord, landlord: l ? l.name : '',
+      landlord_gstin: l ? l.gstin : '', tenant: s.tenant, tenant_gstin: s.tenant_gstin,
+      property: s.property, invoice_no: reg ? reg.invoice_no : '—',
+      taxable_value: g.taxable, cgst: g.cgst, sgst: g.sgst, total_tax: g.totalTax, total: g.total,
+      edited: !!(ov.rents && ov.rents[s.code] != null)
+    });
+  });
+  (ov.addedShops || []).forEach(function(s){
+    var l = (GST_DATA.landlords || []).find(function(x){ return x.id === s.landlord; });
+    var g = computeGst(s.rent);
+    out.push({
+      shop_code: s.code, landlord_id: s.landlord, landlord: l ? l.name : '',
+      landlord_gstin: l ? l.gstin : '', tenant: s.tenant, tenant_gstin: s.tenant_gstin || '',
+      property: s.property || '', invoice_no: (l ? l.series : 'NEW') + '/—',
+      taxable_value: g.taxable, cgst: g.cgst, sgst: g.sgst, total_tax: g.totalTax, total: g.total,
+      added: true
+    });
+  });
+  return out;
+}
+
 function renderMonth(monthKey){
-  var recs = (GST_DATA.registers || {})[monthKey] || [];
+  var recs = buildRecordsForMonth(monthKey);
   renderTotals(recs);
   renderOwners(recs, monthKey);
   var meta = (GST_DATA.months || []).find(function(m){ return m.key === monthKey; });
