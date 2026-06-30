@@ -1,0 +1,10 @@
+# Static site — no build step. Publish the repo root as-is.
+[build]
+  publish = "."
+  command = ""
+
+# Keep the confidential site out of search engines.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
