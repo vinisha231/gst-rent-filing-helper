@@ -1,0 +1,22 @@
+{
+  "month": "2027-03",
+  "month_label": "March 2027",
+  "fy": "2026-27",
+  "shop_code": "PJ2",
+  "landlord_id": "pj",
+  "landlord": "PREMA JYOTHILINGAM",
+  "landlord_gstin": "33AGMPP1213A1Z2",
+  "tenant": "LEON GRILL PRIVATE LIMITED",
+  "tenant_gstin": "33AAFCL3743F1ZR",
+  "property": "New No. 210, Old No. AC-131, 4th Avenue, Shanthi Colony, Anna Nagar, Chennai - 600040",
+  "invoice_no": "PJ/26/2026-27",
+  "invoice_date": "2027-03-31",
+  "hsn_sac": "997212",
+  "rate": 18,
+  "taxable_value": 400000,
+  "cgst": 36000,
+  "sgst": 36000,
+  "total_tax": 72000,
+  "total": 472000,
+  "filed": false
+}
