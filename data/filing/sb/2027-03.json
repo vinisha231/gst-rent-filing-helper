@@ -1,0 +1,72 @@
+{
+  "owner": "SHARMILA BALADHAYANIDHI",
+  "gstin": "33BFXPS9491E1ZL",
+  "month": "2027-03",
+  "label": "March 2027",
+  "fy": "2026-27",
+  "gstr1": {
+    "b2b_invoices": [
+      {
+        "tenant": "GBS SYSTEMS AND SERVICES PVT. LTD.",
+        "recipient_gstin": "33AACCG8243L1ZH",
+        "invoice_no": "SR/34/2026-27",
+        "invoice_date": "2027-03-31",
+        "place_of_supply": "33-Tamil Nadu",
+        "reverse_charge": "N",
+        "hsn_sac": "997212",
+        "rate_pct": 18,
+        "taxable": 140000,
+        "cgst": 12600,
+        "sgst": 12600,
+        "igst": 0,
+        "invoice_value": 165200
+      },
+      {
+        "tenant": "ABBAS OPTICALS PRIVATE LIMITED",
+        "recipient_gstin": "33AAWCA0866D1ZN",
+        "invoice_no": "SR/35/2026-27",
+        "invoice_date": "2027-03-31",
+        "place_of_supply": "33-Tamil Nadu",
+        "reverse_charge": "N",
+        "hsn_sac": "997212",
+        "rate_pct": 18,
+        "taxable": 135000,
+        "cgst": 12150,
+        "sgst": 12150,
+        "igst": 0,
+        "invoice_value": 159300
+      },
+      {
+        "tenant": "RETAIL FIESTA PRIVATE LIMITED",
+        "recipient_gstin": "33AALCR4945H1Z5",
+        "invoice_no": "SR/36/2026-27",
+        "invoice_date": "2027-03-31",
+        "place_of_supply": "33-Tamil Nadu",
+        "reverse_charge": "N",
+        "hsn_sac": "997212",
+        "rate_pct": 18,
+        "taxable": 95000,
+        "cgst": 8550,
+        "sgst": 8550,
+        "igst": 0,
+        "invoice_value": 112100
+      }
+    ],
+    "totals": {
+      "taxable": 370000,
+      "cgst": 33300,
+      "sgst": 33300,
+      "total_tax": 66600
+    }
+  },
+  "gstr3b": {
+    "section_3_1_a_outward_taxable": {
+      "taxable_value": 370000,
+      "igst": 0,
+      "cgst": 33300,
+      "sgst": 33300,
+      "cess": 0
+    }
+  },
+  "cash_to_deposit": 66600
+}
