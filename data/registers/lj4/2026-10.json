@@ -1,0 +1,22 @@
+{
+  "month": "2026-10",
+  "month_label": "October 2026",
+  "fy": "2026-27",
+  "shop_code": "LJ4",
+  "landlord_id": "lj",
+  "landlord": "J LAVANYA",
+  "landlord_gstin": "33ADDPL3842R2Z6",
+  "tenant": "KUNAFA HOUSE",
+  "tenant_gstin": "33GQNPM2614H1ZS",
+  "property": "New No. 68, Old No. AA-110, 4th Avenue, Shanthi Colony, Anna Nagar, Chennai - 600040",
+  "invoice_no": "LR/14/2026-27",
+  "invoice_date": "2026-10-31",
+  "hsn_sac": "997212",
+  "rate": 18,
+  "taxable_value": 135000,
+  "cgst": 12150,
+  "sgst": 12150,
+  "total_tax": 24300,
+  "total": 159300,
+  "filed": false
+}
