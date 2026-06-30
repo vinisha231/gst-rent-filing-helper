@@ -1,0 +1,57 @@
+{
+  "owner": "PREMA JYOTHILINGAM",
+  "gstin": "33AGMPP1213A1Z2",
+  "month": "2027-06",
+  "label": "June 2027",
+  "fy": "2027-28",
+  "gstr1": {
+    "b2b_invoices": [
+      {
+        "tenant": "JKYESH RETAIL (MINIKLUB)",
+        "recipient_gstin": "33AAQFJ2717B1ZO",
+        "invoice_no": "PJ/05/2027-28",
+        "invoice_date": "2027-06-30",
+        "place_of_supply": "33-Tamil Nadu",
+        "reverse_charge": "N",
+        "hsn_sac": "997212",
+        "rate_pct": 18,
+        "taxable": 242550,
+        "cgst": 21830,
+        "sgst": 21830,
+        "igst": 0,
+        "invoice_value": 286210
+      },
+      {
+        "tenant": "LEON GRILL PRIVATE LIMITED",
+        "recipient_gstin": "33AAFCL3743F1ZR",
+        "invoice_no": "PJ/06/2027-28",
+        "invoice_date": "2027-06-30",
+        "place_of_supply": "33-Tamil Nadu",
+        "reverse_charge": "N",
+        "hsn_sac": "997212",
+        "rate_pct": 18,
+        "taxable": 400000,
+        "cgst": 36000,
+        "sgst": 36000,
+        "igst": 0,
+        "invoice_value": 472000
+      }
+    ],
+    "totals": {
+      "taxable": 642550,
+      "cgst": 57830,
+      "sgst": 57830,
+      "total_tax": 115660
+    }
+  },
+  "gstr3b": {
+    "section_3_1_a_outward_taxable": {
+      "taxable_value": 642550,
+      "igst": 0,
+      "cgst": 57830,
+      "sgst": 57830,
+      "cess": 0
+    }
+  },
+  "cash_to_deposit": 115660
+}
