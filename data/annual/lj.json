@@ -1,0 +1,123 @@
+{
+  "owner": "J LAVANYA",
+  "gstin": "33ADDPL3842R2Z6",
+  "period": "Jul 2026 - Jun 2027",
+  "months": [
+    {
+      "month": "2026-07",
+      "taxable": 179000,
+      "cgst": 16110,
+      "sgst": 16110,
+      "total_tax": 32220,
+      "gross": 211220,
+      "invoices": 2
+    },
+    {
+      "month": "2026-08",
+      "taxable": 179000,
+      "cgst": 16110,
+      "sgst": 16110,
+      "total_tax": 32220,
+      "gross": 211220,
+      "invoices": 2
+    },
+    {
+      "month": "2026-09",
+      "taxable": 179000,
+      "cgst": 16110,
+      "sgst": 16110,
+      "total_tax": 32220,
+      "gross": 211220,
+      "invoices": 2
+    },
+    {
+      "month": "2026-10",
+      "taxable": 179000,
+      "cgst": 16110,
+      "sgst": 16110,
+      "total_tax": 32220,
+      "gross": 211220,
+      "invoices": 2
+    },
+    {
+      "month": "2026-11",
+      "taxable": 179000,
+      "cgst": 16110,
+      "sgst": 16110,
+      "total_tax": 32220,
+      "gross": 211220,
+      "invoices": 2
+    },
+    {
+      "month": "2026-12",
+      "taxable": 179000,
+      "cgst": 16110,
+      "sgst": 16110,
+      "total_tax": 32220,
+      "gross": 211220,
+      "invoices": 2
+    },
+    {
+      "month": "2027-01",
+      "taxable": 179000,
+      "cgst": 16110,
+      "sgst": 16110,
+      "total_tax": 32220,
+      "gross": 211220,
+      "invoices": 2
+    },
+    {
+      "month": "2027-02",
+      "taxable": 179000,
+      "cgst": 16110,
+      "sgst": 16110,
+      "total_tax": 32220,
+      "gross": 211220,
+      "invoices": 2
+    },
+    {
+      "month": "2027-03",
+      "taxable": 179000,
+      "cgst": 16110,
+      "sgst": 16110,
+      "total_tax": 32220,
+      "gross": 211220,
+      "invoices": 2
+    },
+    {
+      "month": "2027-04",
+      "taxable": 179000,
+      "cgst": 16110,
+      "sgst": 16110,
+      "total_tax": 32220,
+      "gross": 211220,
+      "invoices": 2
+    },
+    {
+      "month": "2027-05",
+      "taxable": 179000,
+      "cgst": 16110,
+      "sgst": 16110,
+      "total_tax": 32220,
+      "gross": 211220,
+      "invoices": 2
+    },
+    {
+      "month": "2027-06",
+      "taxable": 179000,
+      "cgst": 16110,
+      "sgst": 16110,
+      "total_tax": 32220,
+      "gross": 211220,
+      "invoices": 2
+    }
+  ],
+  "year_total": {
+    "taxable": 2148000,
+    "cgst": 193320,
+    "sgst": 193320,
+    "total_tax": 386640,
+    "gross": 2534640,
+    "invoices": 24
+  }
+}
