@@ -1,0 +1,100 @@
+{
+  "shop_code": "LJ3",
+  "tenant": "ASHOK GOLECHHA AND COMPANY",
+  "gstin": "33AAOFA9613P1ZX",
+  "property": "New No. 68, Old No. AA-110, 4th Avenue, Shanthi Colony, Anna Nagar, Chennai - 600040",
+  "monthly_rent": 44000,
+  "period": "Jul 2026 - Jun 2027",
+  "months": [
+    {
+      "month": "2026-07",
+      "taxable": 44000,
+      "cgst": 3960,
+      "sgst": 3960,
+      "total": 51920
+    },
+    {
+      "month": "2026-08",
+      "taxable": 44000,
+      "cgst": 3960,
+      "sgst": 3960,
+      "total": 51920
+    },
+    {
+      "month": "2026-09",
+      "taxable": 44000,
+      "cgst": 3960,
+      "sgst": 3960,
+      "total": 51920
+    },
+    {
+      "month": "2026-10",
+      "taxable": 44000,
+      "cgst": 3960,
+      "sgst": 3960,
+      "total": 51920
+    },
+    {
+      "month": "2026-11",
+      "taxable": 44000,
+      "cgst": 3960,
+      "sgst": 3960,
+      "total": 51920
+    },
+    {
+      "month": "2026-12",
+      "taxable": 44000,
+      "cgst": 3960,
+      "sgst": 3960,
+      "total": 51920
+    },
+    {
+      "month": "2027-01",
+      "taxable": 44000,
+      "cgst": 3960,
+      "sgst": 3960,
+      "total": 51920
+    },
+    {
+      "month": "2027-02",
+      "taxable": 44000,
+      "cgst": 3960,
+      "sgst": 3960,
+      "total": 51920
+    },
+    {
+      "month": "2027-03",
+      "taxable": 44000,
+      "cgst": 3960,
+      "sgst": 3960,
+      "total": 51920
+    },
+    {
+      "month": "2027-04",
+      "taxable": 44000,
+      "cgst": 3960,
+      "sgst": 3960,
+      "total": 51920
+    },
+    {
+      "month": "2027-05",
+      "taxable": 44000,
+      "cgst": 3960,
+      "sgst": 3960,
+      "total": 51920
+    },
+    {
+      "month": "2027-06",
+      "taxable": 44000,
+      "cgst": 3960,
+      "sgst": 3960,
+      "total": 51920
+    }
+  ],
+  "year_total": {
+    "taxable": 528000,
+    "cgst": 47520,
+    "sgst": 47520,
+    "total": 623040
+  }
+}
