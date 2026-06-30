@@ -1,0 +1,87 @@
+{
+  "month": "2027-05",
+  "label": "May 2027",
+  "rows": [
+    {
+      "shop_code": "LJ3",
+      "tenant": "ASHOK GOLECHHA AND COMPANY",
+      "owner": "J LAVANYA",
+      "invoice_no": "LR/03/2027-28",
+      "gross_due": 51920,
+      "rent_received": false,
+      "received_on": "",
+      "gst_set_aside": 7920,
+      "return_filed": false
+    },
+    {
+      "shop_code": "LJ4",
+      "tenant": "KUNAFA HOUSE",
+      "owner": "J LAVANYA",
+      "invoice_no": "LR/04/2027-28",
+      "gross_due": 159300,
+      "rent_received": false,
+      "received_on": "",
+      "gst_set_aside": 24300,
+      "return_filed": false
+    },
+    {
+      "shop_code": "PJ1",
+      "tenant": "JKYESH RETAIL (MINIKLUB)",
+      "owner": "PREMA JYOTHILINGAM",
+      "invoice_no": "PJ/03/2027-28",
+      "gross_due": 286210,
+      "rent_received": false,
+      "received_on": "",
+      "gst_set_aside": 43660,
+      "return_filed": false
+    },
+    {
+      "shop_code": "PJ2",
+      "tenant": "LEON GRILL PRIVATE LIMITED",
+      "owner": "PREMA JYOTHILINGAM",
+      "invoice_no": "PJ/04/2027-28",
+      "gross_due": 472000,
+      "rent_received": false,
+      "received_on": "",
+      "gst_set_aside": 72000,
+      "return_filed": false
+    },
+    {
+      "shop_code": "SB2",
+      "tenant": "GBS SYSTEMS AND SERVICES PVT. LTD.",
+      "owner": "SHARMILA BALADHAYANIDHI",
+      "invoice_no": "SR/04/2027-28",
+      "gross_due": 165200,
+      "rent_received": false,
+      "received_on": "",
+      "gst_set_aside": 25200,
+      "return_filed": false
+    },
+    {
+      "shop_code": "SB4",
+      "tenant": "ABBAS OPTICALS PRIVATE LIMITED",
+      "owner": "SHARMILA BALADHAYANIDHI",
+      "invoice_no": "SR/05/2027-28",
+      "gross_due": 159300,
+      "rent_received": false,
+      "received_on": "",
+      "gst_set_aside": 24300,
+      "return_filed": false
+    },
+    {
+      "shop_code": "SB5",
+      "tenant": "RETAIL FIESTA PRIVATE LIMITED",
+      "owner": "SHARMILA BALADHAYANIDHI",
+      "invoice_no": "SR/06/2027-28",
+      "gross_due": 112100,
+      "rent_received": false,
+      "received_on": "",
+      "gst_set_aside": 17100,
+      "return_filed": false
+    }
+  ],
+  "totals": {
+    "gross_due": 1406030,
+    "gst": 214480
+  }
+}
