@@ -31,3 +31,28 @@ table.reg .inv{color:var(--muted);font-size:.8rem;}
 .calc-out .row{display:flex;justify-content:space-between;padding:7px 11px;border:1px solid var(--line);
   border-radius:8px;background:#fff;font-variant-numeric:tabular-nums;}
 .calc-out .row.tot{grid-column:1 / -1;background:var(--gold-soft);border-color:#e7d8ad;font-weight:700;}
+.btn-primary{background:var(--green);color:#fff;border-color:var(--green);}
+.btn-danger{background:#fff;color:var(--red);border-color:#e3c4c0;padding:6px 10px;}
+.rent-editor{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;}
+@media (max-width:700px){.rent-editor{grid-template-columns:1fr;}}
+.rent-row{display:flex;justify-content:space-between;align-items:center;gap:10px;
+  background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;box-shadow:var(--shadow);}
+.rent-row.is-edited{border-color:var(--gold);background:var(--gold-soft);}
+.rent-row .rl strong{display:block;font-size:.95rem;}
+.rent-row .rl .meta{font-size:.78rem;color:var(--muted);}
+.rent-row .rl .tag{font-size:.66rem;text-transform:uppercase;letter-spacing:.05em;background:var(--green);
+  color:#fff;border-radius:999px;padding:1px 7px;vertical-align:middle;}
+.rent-row .rr{display:flex;align-items:center;gap:6px;}
+.rent-row .rr .rs{color:var(--muted);}
+.rent-row .rr input{width:110px;padding:7px 9px;border:1px solid var(--line);border-radius:8px;
+  font:inherit;text-align:right;font-variant-numeric:tabular-nums;}
+.rent-row .rr input:focus{outline:2px solid var(--gold);outline-offset:1px;}
+.manage-actions{margin-top:14px;}
+.add-shop{margin-top:18px;background:var(--card);border:1px solid var(--line);border-radius:12px;
+  padding:14px 16px;box-shadow:var(--shadow);}
+.add-shop h3{margin:0 0 10px;font-size:1rem;}
+.asf-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px;}
+@media (max-width:640px){.asf-grid{grid-template-columns:1fr;}}
+.asf-grid label{display:block;font-size:.8rem;font-weight:600;color:var(--muted);}
+.asf-grid label input,.asf-grid label select{margin-top:5px;width:100%;font:inherit;color:var(--ink);
+  font-weight:400;padding:8px 10px;border:1px solid var(--line);border-radius:8px;}

@@ -40,6 +40,16 @@
       <div id="landlord-cards"></div>
     </section>
 
+    <section class="panel" id="manage-panel">
+      <h2>Edit rent &amp; add shops</h2>
+      <p class="muted">Change a monthly rent or add a new shop &mdash; the figures above update instantly.
+         Edits are saved only in this browser; click Reset to restore the original rents.</p>
+      <div id="rent-editor" class="rent-editor"></div>
+      <div class="manage-actions">
+        <button id="reset-overrides" class="btn btn-ghost" type="button">Reset to original</button>
+      </div>
+    </section>
+
     <section class="panel" id="calc-panel">
       <h2>Quick GST calculator</h2>
       <p class="muted">Enter any monthly rent to split it into CGST, SGST and the gross invoice value.</p>
@@ -64,6 +74,7 @@
   <script src="js/overrides.js"></script>
   <script src="js/calculator.js"></script>
   <script src="js/dashboard.js"></script>
+  <script src="js/manage.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

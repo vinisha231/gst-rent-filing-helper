@@ -11,6 +11,7 @@
     var first = (GST_DATA.months[0] || {}).key;
     if (first){ sel.value = first; renderMonth(first); }
     initCalc();
+    if (typeof initManage === 'function') initManage();
     var pb = document.getElementById('print-btn');
     if (pb) pb.addEventListener('click', function(){ window.print(); });
   }
