@@ -1,0 +1,100 @@
+{
+  "shop_code": "SB2",
+  "tenant": "GBS SYSTEMS AND SERVICES PVT. LTD.",
+  "gstin": "33AACCG8243L1ZH",
+  "property": "New No. 74, Old No. AA-109, 4th Avenue, Shanthi Colony, Anna Nagar, Chennai - 600040",
+  "monthly_rent": 140000,
+  "period": "Jul 2026 - Jun 2027",
+  "months": [
+    {
+      "month": "2026-07",
+      "taxable": 140000,
+      "cgst": 12600,
+      "sgst": 12600,
+      "total": 165200
+    },
+    {
+      "month": "2026-08",
+      "taxable": 140000,
+      "cgst": 12600,
+      "sgst": 12600,
+      "total": 165200
+    },
+    {
+      "month": "2026-09",
+      "taxable": 140000,
+      "cgst": 12600,
+      "sgst": 12600,
+      "total": 165200
+    },
+    {
+      "month": "2026-10",
+      "taxable": 140000,
+      "cgst": 12600,
+      "sgst": 12600,
+      "total": 165200
+    },
+    {
+      "month": "2026-11",
+      "taxable": 140000,
+      "cgst": 12600,
+      "sgst": 12600,
+      "total": 165200
+    },
+    {
+      "month": "2026-12",
+      "taxable": 140000,
+      "cgst": 12600,
+      "sgst": 12600,
+      "total": 165200
+    },
+    {
+      "month": "2027-01",
+      "taxable": 140000,
+      "cgst": 12600,
+      "sgst": 12600,
+      "total": 165200
+    },
+    {
+      "month": "2027-02",
+      "taxable": 140000,
+      "cgst": 12600,
+      "sgst": 12600,
+      "total": 165200
+    },
+    {
+      "month": "2027-03",
+      "taxable": 140000,
+      "cgst": 12600,
+      "sgst": 12600,
+      "total": 165200
+    },
+    {
+      "month": "2027-04",
+      "taxable": 140000,
+      "cgst": 12600,
+      "sgst": 12600,
+      "total": 165200
+    },
+    {
+      "month": "2027-05",
+      "taxable": 140000,
+      "cgst": 12600,
+      "sgst": 12600,
+      "total": 165200
+    },
+    {
+      "month": "2027-06",
+      "taxable": 140000,
+      "cgst": 12600,
+      "sgst": 12600,
+      "total": 165200
+    }
+  ],
+  "year_total": {
+    "taxable": 1680000,
+    "cgst": 151200,
+    "sgst": 151200,
+    "total": 1982400
+  }
+}
