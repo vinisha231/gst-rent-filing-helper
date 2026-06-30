@@ -1,0 +1,22 @@
+{
+  "month": "2027-03",
+  "month_label": "March 2027",
+  "fy": "2026-27",
+  "shop_code": "SB4",
+  "landlord_id": "sb",
+  "landlord": "SHARMILA BALADHAYANIDHI",
+  "landlord_gstin": "33BFXPS9491E1ZL",
+  "tenant": "ABBAS OPTICALS PRIVATE LIMITED",
+  "tenant_gstin": "33AAWCA0866D1ZN",
+  "property": "New No. 72, Old No. AA-107, 4th Avenue, Shanthi Colony, Anna Nagar, Chennai - 600040",
+  "invoice_no": "SR/35/2026-27",
+  "invoice_date": "2027-03-31",
+  "hsn_sac": "997212",
+  "rate": 18,
+  "taxable_value": 135000,
+  "cgst": 12150,
+  "sgst": 12150,
+  "total_tax": 24300,
+  "total": 159300,
+  "filed": false
+}
