@@ -1,0 +1,57 @@
+{
+  "owner": "J LAVANYA",
+  "gstin": "33ADDPL3842R2Z6",
+  "month": "2027-01",
+  "label": "January 2027",
+  "fy": "2026-27",
+  "gstr1": {
+    "b2b_invoices": [
+      {
+        "tenant": "ASHOK GOLECHHA AND COMPANY",
+        "recipient_gstin": "33AAOFA9613P1ZX",
+        "invoice_no": "LR/19/2026-27",
+        "invoice_date": "2027-01-31",
+        "place_of_supply": "33-Tamil Nadu",
+        "reverse_charge": "N",
+        "hsn_sac": "997212",
+        "rate_pct": 18,
+        "taxable": 44000,
+        "cgst": 3960,
+        "sgst": 3960,
+        "igst": 0,
+        "invoice_value": 51920
+      },
+      {
+        "tenant": "KUNAFA HOUSE",
+        "recipient_gstin": "33GQNPM2614H1ZS",
+        "invoice_no": "LR/20/2026-27",
+        "invoice_date": "2027-01-31",
+        "place_of_supply": "33-Tamil Nadu",
+        "reverse_charge": "N",
+        "hsn_sac": "997212",
+        "rate_pct": 18,
+        "taxable": 135000,
+        "cgst": 12150,
+        "sgst": 12150,
+        "igst": 0,
+        "invoice_value": 159300
+      }
+    ],
+    "totals": {
+      "taxable": 179000,
+      "cgst": 16110,
+      "sgst": 16110,
+      "total_tax": 32220
+    }
+  },
+  "gstr3b": {
+    "section_3_1_a_outward_taxable": {
+      "taxable_value": 179000,
+      "igst": 0,
+      "cgst": 16110,
+      "sgst": 16110,
+      "cess": 0
+    }
+  },
+  "cash_to_deposit": 32220
+}
