@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GST Rent Filing Helper</title>
+  <meta name="description" content="Monthly GST (18%) filing helper for commercial rent income." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/print.css" media="print" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>GST Rent Filing Helper</h1>
+      <p class="tagline">Commercial rent &middot; 18% GST (9% CGST + 9% SGST) &middot; Tamil Nadu (33)</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="panel" id="month-panel">
+      <div class="month-bar">
+        <label for="month-select">Filing month</label>
+        <select id="month-select" aria-label="Select filing month"></select>
+        <span class="due" id="due-dates"></span>
+        <button id="print-btn" class="btn btn-ghost" type="button">Print / Save PDF</button>
+      </div>
+    </section>
+
+    <section class="panel" id="totals">
+      <h2>Total GST to collect &amp; pay this month</h2>
+      <div class="totals-grid" id="totals-grid"></div>
+    </section>
+
+    <section class="panel">
+      <h2>By owner (GSTIN)</h2>
+      <p class="muted">Each owner files their own GSTR-1 and GSTR-3B. Use these figures for the return.</p>
+      <div id="landlord-cards"></div>
+    </section>
+
+    <section class="panel" id="calc-panel">
+      <h2>Quick GST calculator</h2>
+      <p class="muted">Enter any monthly rent to split it into CGST, SGST and the gross invoice value.</p>
+      <div class="calc">
+        <label for="calc-rent">Rent (taxable value) &#8377;</label>
+        <input id="calc-rent" type="number" min="0" step="100" inputmode="numeric" placeholder="e.g. 135000" />
+        <div class="calc-out" id="calc-out"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Built to help with monthly GST filing. Figures are a working aid &mdash; always confirm
+         the final return with your accountant. &copy; 2026 vinisha231.</p>
+    </div>
+  </footer>
+
+  <script src="js/format.js"></script>
+  <script src="js/gst.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/calculator.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
