@@ -60,7 +60,32 @@ function initManage(){
       resetOverrides(); renderRentEditor(); renderMonth(currentMonth());
     }
   });
+  initAddShop();
   renderRentEditor();
+}
+
+function initAddShop(){
+  var form = document.getElementById('add-shop-form');
+  if (!form) return;
+  var sel = document.getElementById('as-owner');
+  sel.innerHTML = (GST_DATA.landlords || []).map(function(l){
+    return '<option value="' + l.id + '">' + esc(l.name) + '</option>';
+  }).join('');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var tenant = document.getElementById('as-tenant').value.trim();
+    if (!tenant) return;
+    addShop({
+      landlord: sel.value,
+      tenant: tenant,
+      tenant_gstin: document.getElementById('as-gstin').value.trim().toUpperCase(),
+      property: document.getElementById('as-property').value.trim(),
+      rent: Number(document.getElementById('as-rent').value) || 0
+    });
+    form.reset();
+    renderRentEditor();
+    renderMonth(currentMonth());
+  });
 }
 window.renderRentEditor = renderRentEditor;
 window.initManage = initManage;

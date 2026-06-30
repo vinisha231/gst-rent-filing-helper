@@ -45,6 +45,19 @@
       <p class="muted">Change a monthly rent or add a new shop &mdash; the figures above update instantly.
          Edits are saved only in this browser; click Reset to restore the original rents.</p>
       <div id="rent-editor" class="rent-editor"></div>
+
+      <form id="add-shop-form" class="add-shop">
+        <h3>Add a shop / tenant</h3>
+        <div class="asf-grid">
+          <label>Owner<select id="as-owner" required></select></label>
+          <label>Tenant name<input id="as-tenant" required placeholder="e.g. ABC Traders" /></label>
+          <label>Tenant GSTIN<input id="as-gstin" maxlength="15" placeholder="optional" /></label>
+          <label>Monthly rent &#8377;<input id="as-rent" type="number" min="0" step="500" required placeholder="e.g. 50000" /></label>
+          <label>Property / address<input id="as-property" placeholder="optional" /></label>
+        </div>
+        <button class="btn btn-primary" type="submit">Add shop</button>
+      </form>
+
       <div class="manage-actions">
         <button id="reset-overrides" class="btn btn-ghost" type="button">Reset to original</button>
       </div>
