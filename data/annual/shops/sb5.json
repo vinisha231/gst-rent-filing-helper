@@ -1,0 +1,100 @@
+{
+  "shop_code": "SB5",
+  "tenant": "RETAIL FIESTA PRIVATE LIMITED",
+  "gstin": "33AALCR4945H1Z5",
+  "property": "New No. 72, Old No. AA-107, 4th Avenue, Shanthi Colony, Anna Nagar, Chennai - 600040",
+  "monthly_rent": 95000,
+  "period": "Jul 2026 - Jun 2027",
+  "months": [
+    {
+      "month": "2026-07",
+      "taxable": 95000,
+      "cgst": 8550,
+      "sgst": 8550,
+      "total": 112100
+    },
+    {
+      "month": "2026-08",
+      "taxable": 95000,
+      "cgst": 8550,
+      "sgst": 8550,
+      "total": 112100
+    },
+    {
+      "month": "2026-09",
+      "taxable": 95000,
+      "cgst": 8550,
+      "sgst": 8550,
+      "total": 112100
+    },
+    {
+      "month": "2026-10",
+      "taxable": 95000,
+      "cgst": 8550,
+      "sgst": 8550,
+      "total": 112100
+    },
+    {
+      "month": "2026-11",
+      "taxable": 95000,
+      "cgst": 8550,
+      "sgst": 8550,
+      "total": 112100
+    },
+    {
+      "month": "2026-12",
+      "taxable": 95000,
+      "cgst": 8550,
+      "sgst": 8550,
+      "total": 112100
+    },
+    {
+      "month": "2027-01",
+      "taxable": 95000,
+      "cgst": 8550,
+      "sgst": 8550,
+      "total": 112100
+    },
+    {
+      "month": "2027-02",
+      "taxable": 95000,
+      "cgst": 8550,
+      "sgst": 8550,
+      "total": 112100
+    },
+    {
+      "month": "2027-03",
+      "taxable": 95000,
+      "cgst": 8550,
+      "sgst": 8550,
+      "total": 112100
+    },
+    {
+      "month": "2027-04",
+      "taxable": 95000,
+      "cgst": 8550,
+      "sgst": 8550,
+      "total": 112100
+    },
+    {
+      "month": "2027-05",
+      "taxable": 95000,
+      "cgst": 8550,
+      "sgst": 8550,
+      "total": 112100
+    },
+    {
+      "month": "2027-06",
+      "taxable": 95000,
+      "cgst": 8550,
+      "sgst": 8550,
+      "total": 112100
+    }
+  ],
+  "year_total": {
+    "taxable": 1140000,
+    "cgst": 102600,
+    "sgst": 102600,
+    "total": 1345200
+  }
+}
