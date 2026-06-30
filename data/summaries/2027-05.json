@@ -1,0 +1,46 @@
+{
+  "month": "2027-05",
+  "label": "May 2027",
+  "fy": "2027-28",
+  "basis": "18% GST (9% CGST + 9% SGST), intra-state Tamil Nadu",
+  "owners": {
+    "lj": {
+      "name": "J LAVANYA",
+      "gstin": "33ADDPL3842R2Z6",
+      "invoices": 2,
+      "taxable": 179000,
+      "cgst": 16110,
+      "sgst": 16110,
+      "total_tax": 32220,
+      "gross": 211220
+    },
+    "pj": {
+      "name": "PREMA JYOTHILINGAM",
+      "gstin": "33AGMPP1213A1Z2",
+      "invoices": 2,
+      "taxable": 642550,
+      "cgst": 57830,
+      "sgst": 57830,
+      "total_tax": 115660,
+      "gross": 758210
+    },
+    "sb": {
+      "name": "SHARMILA BALADHAYANIDHI",
+      "gstin": "33BFXPS9491E1ZL",
+      "invoices": 3,
+      "taxable": 370000,
+      "cgst": 33300,
+      "sgst": 33300,
+      "total_tax": 66600,
+      "gross": 436600
+    }
+  },
+  "grand_total": {
+    "invoices": 7,
+    "taxable": 1191550,
+    "cgst": 107240,
+    "sgst": 107240,
+    "total_tax": 214480,
+    "gross": 1406030
+  }
+}
