@@ -1,0 +1,123 @@
+{
+  "owner": "SHARMILA BALADHAYANIDHI",
+  "gstin": "33BFXPS9491E1ZL",
+  "period": "Jul 2026 - Jun 2027",
+  "months": [
+    {
+      "month": "2026-07",
+      "taxable": 370000,
+      "cgst": 33300,
+      "sgst": 33300,
+      "total_tax": 66600,
+      "gross": 436600,
+      "invoices": 3
+    },
+    {
+      "month": "2026-08",
+      "taxable": 370000,
+      "cgst": 33300,
+      "sgst": 33300,
+      "total_tax": 66600,
+      "gross": 436600,
+      "invoices": 3
+    },
+    {
+      "month": "2026-09",
+      "taxable": 370000,
+      "cgst": 33300,
+      "sgst": 33300,
+      "total_tax": 66600,
+      "gross": 436600,
+      "invoices": 3
+    },
+    {
+      "month": "2026-10",
+      "taxable": 370000,
+      "cgst": 33300,
+      "sgst": 33300,
+      "total_tax": 66600,
+      "gross": 436600,
+      "invoices": 3
+    },
+    {
+      "month": "2026-11",
+      "taxable": 370000,
+      "cgst": 33300,
+      "sgst": 33300,
+      "total_tax": 66600,
+      "gross": 436600,
+      "invoices": 3
+    },
+    {
+      "month": "2026-12",
+      "taxable": 370000,
+      "cgst": 33300,
+      "sgst": 33300,
+      "total_tax": 66600,
+      "gross": 436600,
+      "invoices": 3
+    },
+    {
+      "month": "2027-01",
+      "taxable": 370000,
+      "cgst": 33300,
+      "sgst": 33300,
+      "total_tax": 66600,
+      "gross": 436600,
+      "invoices": 3
+    },
+    {
+      "month": "2027-02",
+      "taxable": 370000,
+      "cgst": 33300,
+      "sgst": 33300,
+      "total_tax": 66600,
+      "gross": 436600,
+      "invoices": 3
+    },
+    {
+      "month": "2027-03",
+      "taxable": 370000,
+      "cgst": 33300,
+      "sgst": 33300,
+      "total_tax": 66600,
+      "gross": 436600,
+      "invoices": 3
+    },
+    {
+      "month": "2027-04",
+      "taxable": 370000,
+      "cgst": 33300,
+      "sgst": 33300,
+      "total_tax": 66600,
+      "gross": 436600,
+      "invoices": 3
+    },
+    {
+      "month": "2027-05",
+      "taxable": 370000,
+      "cgst": 33300,
+      "sgst": 33300,
+      "total_tax": 66600,
+      "gross": 436600,
+      "invoices": 3
+    },
+    {
+      "month": "2027-06",
+      "taxable": 370000,
+      "cgst": 33300,
+      "sgst": 33300,
+      "total_tax": 66600,
+      "gross": 436600,
+      "invoices": 3
+    }
+  ],
+  "year_total": {
+    "taxable": 4440000,
+    "cgst": 399600,
+    "sgst": 399600,
+    "total_tax": 799200,
+    "gross": 5239200,
+    "invoices": 36
+  }
+}
