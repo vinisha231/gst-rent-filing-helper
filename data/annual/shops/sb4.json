@@ -1,0 +1,100 @@
+{
+  "shop_code": "SB4",
+  "tenant": "ABBAS OPTICALS PRIVATE LIMITED",
+  "gstin": "33AAWCA0866D1ZN",
+  "property": "New No. 72, Old No. AA-107, 4th Avenue, Shanthi Colony, Anna Nagar, Chennai - 600040",
+  "monthly_rent": 135000,
+  "period": "Jul 2026 - Jun 2027",
+  "months": [
+    {
+      "month": "2026-07",
+      "taxable": 135000,
+      "cgst": 12150,
+      "sgst": 12150,
+      "total": 159300
+    },
+    {
+      "month": "2026-08",
+      "taxable": 135000,
+      "cgst": 12150,
+      "sgst": 12150,
+      "total": 159300
+    },
+    {
+      "month": "2026-09",
+      "taxable": 135000,
+      "cgst": 12150,
+      "sgst": 12150,
+      "total": 159300
+    },
+    {
+      "month": "2026-10",
+      "taxable": 135000,
+      "cgst": 12150,
+      "sgst": 12150,
+      "total": 159300
+    },
+    {
+      "month": "2026-11",
+      "taxable": 135000,
+      "cgst": 12150,
+      "sgst": 12150,
+      "total": 159300
+    },
+    {
+      "month": "2026-12",
+      "taxable": 135000,
+      "cgst": 12150,
+      "sgst": 12150,
+      "total": 159300
+    },
+    {
+      "month": "2027-01",
+      "taxable": 135000,
+      "cgst": 12150,
+      "sgst": 12150,
+      "total": 159300
+    },
+    {
+      "month": "2027-02",
+      "taxable": 135000,
+      "cgst": 12150,
+      "sgst": 12150,
+      "total": 159300
+    },
+    {
+      "month": "2027-03",
+      "taxable": 135000,
+      "cgst": 12150,
+      "sgst": 12150,
+      "total": 159300
+    },
+    {
+      "month": "2027-04",
+      "taxable": 135000,
+      "cgst": 12150,
+      "sgst": 12150,
+      "total": 159300
+    },
+    {
+      "month": "2027-05",
+      "taxable": 135000,
+      "cgst": 12150,
+      "sgst": 12150,
+      "total": 159300
+    },
+    {
+      "month": "2027-06",
+      "taxable": 135000,
+      "cgst": 12150,
+      "sgst": 12150,
+      "total": 159300
+    }
+  ],
+  "year_total": {
+    "taxable": 1620000,
+    "cgst": 145800,
+    "sgst": 145800,
+    "total": 1911600
+  }
+}
