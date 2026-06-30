@@ -1,0 +1,123 @@
+{
+  "owner": "PREMA JYOTHILINGAM",
+  "gstin": "33AGMPP1213A1Z2",
+  "period": "Jul 2026 - Jun 2027",
+  "months": [
+    {
+      "month": "2026-07",
+      "taxable": 642550,
+      "cgst": 57830,
+      "sgst": 57830,
+      "total_tax": 115660,
+      "gross": 758210,
+      "invoices": 2
+    },
+    {
+      "month": "2026-08",
+      "taxable": 642550,
+      "cgst": 57830,
+      "sgst": 57830,
+      "total_tax": 115660,
+      "gross": 758210,
+      "invoices": 2
+    },
+    {
+      "month": "2026-09",
+      "taxable": 642550,
+      "cgst": 57830,
+      "sgst": 57830,
+      "total_tax": 115660,
+      "gross": 758210,
+      "invoices": 2
+    },
+    {
+      "month": "2026-10",
+      "taxable": 642550,
+      "cgst": 57830,
+      "sgst": 57830,
+      "total_tax": 115660,
+      "gross": 758210,
+      "invoices": 2
+    },
+    {
+      "month": "2026-11",
+      "taxable": 642550,
+      "cgst": 57830,
+      "sgst": 57830,
+      "total_tax": 115660,
+      "gross": 758210,
+      "invoices": 2
+    },
+    {
+      "month": "2026-12",
+      "taxable": 642550,
+      "cgst": 57830,
+      "sgst": 57830,
+      "total_tax": 115660,
+      "gross": 758210,
+      "invoices": 2
+    },
+    {
+      "month": "2027-01",
+      "taxable": 642550,
+      "cgst": 57830,
+      "sgst": 57830,
+      "total_tax": 115660,
+      "gross": 758210,
+      "invoices": 2
+    },
+    {
+      "month": "2027-02",
+      "taxable": 642550,
+      "cgst": 57830,
+      "sgst": 57830,
+      "total_tax": 115660,
+      "gross": 758210,
+      "invoices": 2
+    },
+    {
+      "month": "2027-03",
+      "taxable": 642550,
+      "cgst": 57830,
+      "sgst": 57830,
+      "total_tax": 115660,
+      "gross": 758210,
+      "invoices": 2
+    },
+    {
+      "month": "2027-04",
+      "taxable": 642550,
+      "cgst": 57830,
+      "sgst": 57830,
+      "total_tax": 115660,
+      "gross": 758210,
+      "invoices": 2
+    },
+    {
+      "month": "2027-05",
+      "taxable": 642550,
+      "cgst": 57830,
+      "sgst": 57830,
+      "total_tax": 115660,
+      "gross": 758210,
+      "invoices": 2
+    },
+    {
+      "month": "2027-06",
+      "taxable": 642550,
+      "cgst": 57830,
+      "sgst": 57830,
+      "total_tax": 115660,
+      "gross": 758210,
+      "invoices": 2
+    }
+  ],
+  "year_total": {
+    "taxable": 7710600,
+    "cgst": 693960,
+    "sgst": 693960,
+    "total_tax": 1387920,
+    "gross": 9098520,
+    "invoices": 24
+  }
+}
