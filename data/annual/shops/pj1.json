@@ -1,0 +1,100 @@
+{
+  "shop_code": "PJ1",
+  "tenant": "JKYESH RETAIL (MINIKLUB)",
+  "gstin": "33AAQFJ2717B1ZO",
+  "property": "New No. 208, Old No. AC-132, 4th Avenue, Shanthi Colony, Anna Nagar, Chennai - 600040",
+  "monthly_rent": 242550,
+  "period": "Jul 2026 - Jun 2027",
+  "months": [
+    {
+      "month": "2026-07",
+      "taxable": 242550,
+      "cgst": 21830,
+      "sgst": 21830,
+      "total": 286210
+    },
+    {
+      "month": "2026-08",
+      "taxable": 242550,
+      "cgst": 21830,
+      "sgst": 21830,
+      "total": 286210
+    },
+    {
+      "month": "2026-09",
+      "taxable": 242550,
+      "cgst": 21830,
+      "sgst": 21830,
+      "total": 286210
+    },
+    {
+      "month": "2026-10",
+      "taxable": 242550,
+      "cgst": 21830,
+      "sgst": 21830,
+      "total": 286210
+    },
+    {
+      "month": "2026-11",
+      "taxable": 242550,
+      "cgst": 21830,
+      "sgst": 21830,
+      "total": 286210
+    },
+    {
+      "month": "2026-12",
+      "taxable": 242550,
+      "cgst": 21830,
+      "sgst": 21830,
+      "total": 286210
+    },
+    {
+      "month": "2027-01",
+      "taxable": 242550,
+      "cgst": 21830,
+      "sgst": 21830,
+      "total": 286210
+    },
+    {
+      "month": "2027-02",
+      "taxable": 242550,
+      "cgst": 21830,
+      "sgst": 21830,
+      "total": 286210
+    },
+    {
+      "month": "2027-03",
+      "taxable": 242550,
+      "cgst": 21830,
+      "sgst": 21830,
+      "total": 286210
+    },
+    {
+      "month": "2027-04",
+      "taxable": 242550,
+      "cgst": 21830,
+      "sgst": 21830,
+      "total": 286210
+    },
+    {
+      "month": "2027-05",
+      "taxable": 242550,
+      "cgst": 21830,
+      "sgst": 21830,
+      "total": 286210
+    },
+    {
+      "month": "2027-06",
+      "taxable": 242550,
+      "cgst": 21830,
+      "sgst": 21830,
+      "total": 286210
+    }
+  ],
+  "year_total": {
+    "taxable": 2910600,
+    "cgst": 261960,
+    "sgst": 261960,
+    "total": 3434520
+  }
+}
