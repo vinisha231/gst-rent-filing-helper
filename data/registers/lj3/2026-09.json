@@ -1,0 +1,22 @@
+{
+  "month": "2026-09",
+  "month_label": "September 2026",
+  "fy": "2026-27",
+  "shop_code": "LJ3",
+  "landlord_id": "lj",
+  "landlord": "J LAVANYA",
+  "landlord_gstin": "33ADDPL3842R2Z6",
+  "tenant": "ASHOK GOLECHHA AND COMPANY",
+  "tenant_gstin": "33AAOFA9613P1ZX",
+  "property": "New No. 68, Old No. AA-110, 4th Avenue, Shanthi Colony, Anna Nagar, Chennai - 600040",
+  "invoice_no": "LR/11/2026-27",
+  "invoice_date": "2026-09-30",
+  "hsn_sac": "997212",
+  "rate": 18,
+  "taxable_value": 44000,
+  "cgst": 3960,
+  "sgst": 3960,
+  "total_tax": 7920,
+  "total": 51920,
+  "filed": false
+}
