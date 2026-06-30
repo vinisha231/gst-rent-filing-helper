@@ -1,0 +1,100 @@
+{
+  "shop_code": "PJ2",
+  "tenant": "LEON GRILL PRIVATE LIMITED",
+  "gstin": "33AAFCL3743F1ZR",
+  "property": "New No. 210, Old No. AC-131, 4th Avenue, Shanthi Colony, Anna Nagar, Chennai - 600040",
+  "monthly_rent": 400000,
+  "period": "Jul 2026 - Jun 2027",
+  "months": [
+    {
+      "month": "2026-07",
+      "taxable": 400000,
+      "cgst": 36000,
+      "sgst": 36000,
+      "total": 472000
+    },
+    {
+      "month": "2026-08",
+      "taxable": 400000,
+      "cgst": 36000,
+      "sgst": 36000,
+      "total": 472000
+    },
+    {
+      "month": "2026-09",
+      "taxable": 400000,
+      "cgst": 36000,
+      "sgst": 36000,
+      "total": 472000
+    },
+    {
+      "month": "2026-10",
+      "taxable": 400000,
+      "cgst": 36000,
+      "sgst": 36000,
+      "total": 472000
+    },
+    {
+      "month": "2026-11",
+      "taxable": 400000,
+      "cgst": 36000,
+      "sgst": 36000,
+      "total": 472000
+    },
+    {
+      "month": "2026-12",
+      "taxable": 400000,
+      "cgst": 36000,
+      "sgst": 36000,
+      "total": 472000
+    },
+    {
+      "month": "2027-01",
+      "taxable": 400000,
+      "cgst": 36000,
+      "sgst": 36000,
+      "total": 472000
+    },
+    {
+      "month": "2027-02",
+      "taxable": 400000,
+      "cgst": 36000,
+      "sgst": 36000,
+      "total": 472000
+    },
+    {
+      "month": "2027-03",
+      "taxable": 400000,
+      "cgst": 36000,
+      "sgst": 36000,
+      "total": 472000
+    },
+    {
+      "month": "2027-04",
+      "taxable": 400000,
+      "cgst": 36000,
+      "sgst": 36000,
+      "total": 472000
+    },
+    {
+      "month": "2027-05",
+      "taxable": 400000,
+      "cgst": 36000,
+      "sgst": 36000,
+      "total": 472000
+    },
+    {
+      "month": "2027-06",
+      "taxable": 400000,
+      "cgst": 36000,
+      "sgst": 36000,
+      "total": 472000
+    }
+  ],
+  "year_total": {
+    "taxable": 4800000,
+    "cgst": 432000,
+    "sgst": 432000,
+    "total": 5664000
+  }
+}
