@@ -40,6 +40,17 @@
       <div id="landlord-cards"></div>
     </section>
 
+    <section class="panel" id="invoice-panel">
+      <h2>Generate invoice PDF</h2>
+      <p class="muted">Pick a month and a shop to create a printable tax invoice. In the print
+         dialog, choose &ldquo;Save as PDF&rdquo; as the destination.</p>
+      <div class="inv-controls">
+        <label>Month<select id="inv-month"></select></label>
+        <label>Shop / tenant<select id="inv-shop"></select></label>
+        <button id="inv-generate" class="btn btn-primary" type="button">Generate invoice PDF</button>
+      </div>
+    </section>
+
     <section class="panel" id="manage-panel">
       <h2>Edit rent &amp; add shops</h2>
       <p class="muted">Change a monthly rent or add a new shop &mdash; the figures above update instantly.
@@ -88,6 +99,7 @@
   <script src="js/calculator.js"></script>
   <script src="js/dashboard.js"></script>
   <script src="js/manage.js"></script>
+  <script src="js/invoice.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

@@ -52,12 +52,12 @@ function initManage(){
   });
   host.addEventListener('click', function(e){
     var rm = e.target.getAttribute('data-remove-shop');
-    if (rm){ removeAddedShop(rm); renderRentEditor(); renderMonth(currentMonth()); }
+    if (rm){ removeAddedShop(rm); renderRentEditor(); renderMonth(currentMonth()); refreshInvoices(); }
   });
   var reset = document.getElementById('reset-overrides');
   if (reset) reset.addEventListener('click', function(){
     if (confirm('Restore all original rents and remove added shops?')){
-      resetOverrides(); renderRentEditor(); renderMonth(currentMonth());
+      resetOverrides(); renderRentEditor(); renderMonth(currentMonth()); refreshInvoices();
     }
   });
   initAddShop();
@@ -85,7 +85,12 @@ function initAddShop(){
     form.reset();
     renderRentEditor();
     renderMonth(currentMonth());
+    refreshInvoices();
   });
+}
+
+function refreshInvoices(){
+  if (typeof refreshInvoiceShops === 'function') refreshInvoiceShops();
 }
 window.renderRentEditor = renderRentEditor;
 window.initManage = initManage;

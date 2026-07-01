@@ -12,6 +12,7 @@
     if (first){ sel.value = first; renderMonth(first); }
     initCalc();
     if (typeof initManage === 'function') initManage();
+    if (typeof initInvoice === 'function') initInvoice();
     var pb = document.getElementById('print-btn');
     if (pb) pb.addEventListener('click', function(){ window.print(); });
   }

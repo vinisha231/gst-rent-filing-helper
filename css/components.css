@@ -48,6 +48,12 @@ table.reg .inv{color:var(--muted);font-size:.8rem;}
   font:inherit;text-align:right;font-variant-numeric:tabular-nums;}
 .rent-row .rr input:focus{outline:2px solid var(--gold);outline-offset:1px;}
 .manage-actions{margin-top:14px;}
+.inv-controls{display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap;background:var(--card);
+  border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow);}
+.inv-controls label{display:block;font-size:.8rem;font-weight:600;color:var(--muted);}
+.inv-controls select{margin-top:5px;min-width:200px;font:inherit;color:var(--ink);font-weight:400;
+  padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:#fff;}
+@media (max-width:560px){.inv-controls select{min-width:0;width:100%;}.inv-controls label{width:100%;}}
 .add-shop{margin-top:18px;background:var(--card);border:1px solid var(--line);border-radius:12px;
   padding:14px 16px;box-shadow:var(--shadow);}
 .add-shop h3{margin:0 0 10px;font-size:1rem;}
