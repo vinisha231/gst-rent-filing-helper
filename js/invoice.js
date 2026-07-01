@@ -61,7 +61,8 @@ function buildInvoiceHtml(code, monthKey){
 
   return '<!DOCTYPE html><html><head><meta charset="utf-8"><title>Invoice ' + invEsc(invoiceNo) + '</title>' +
     '<style>' +
-    '*{box-sizing:border-box;} body{font-family:Arial,Helvetica,sans-serif;color:#111;margin:0;padding:28px;}' +
+    '*{box-sizing:border-box;} html,body{background:#fff;}' +
+    'body{font-family:Arial,Helvetica,sans-serif;color:#111;margin:0;padding:28px;-webkit-print-color-adjust:exact;print-color-adjust:exact;}' +
     '.inv{max-width:720px;margin:0 auto;border:1px solid #333;padding:22px 26px;}' +
     '.center{text-align:center;} .muted{color:#555;font-size:12px;}' +
     'h1{font-size:18px;margin:0 0 2px;} h2{font-size:15px;margin:0 0 10px;font-weight:600;}' +
