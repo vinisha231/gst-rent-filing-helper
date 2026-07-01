@@ -48,6 +48,7 @@ table.reg .inv{color:var(--muted);font-size:.8rem;}
   font:inherit;text-align:right;font-variant-numeric:tabular-nums;}
 .rent-row .rr input:focus{outline:2px solid var(--gold);outline-offset:1px;}
 .manage-actions{margin-top:14px;}
+.settings-sub{font-size:.95rem;margin:4px 0 12px;color:var(--ink);}
 .inv-controls{display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap;background:var(--card);
   border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow);}
 .inv-controls label{display:block;font-size:.8rem;font-weight:600;color:var(--muted);}
