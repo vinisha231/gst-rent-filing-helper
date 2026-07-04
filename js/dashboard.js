@@ -1,4 +1,9 @@
 // Renders the month totals and the per-owner filing cards.
+function esc(s){
+  return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
+    return ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' })[c];
+  });
+}
 function ownerName(id){
   var l = (GST_DATA.landlords || []).find(function(x){ return x.id === id; });
   return l ? l.name : id;
@@ -42,7 +47,7 @@ function renderOwners(recs, month){
 }
 function ownerCard(l, rows){
   var body = rows.map(function(r){
-    return '<tr><td>' + r.tenant + '<div class="inv">' + r.invoice_no + '</div></td>' +
+    return '<tr><td>' + esc(r.tenant) + '<div class="inv">' + esc(r.invoice_no) + '</div></td>' +
       '<td>' + inr(r.taxable_value) + '</td>' +
       '<td>' + inr(r.cgst) + '</td>' +
       '<td>' + inr(r.sgst) + '</td>' +
@@ -51,8 +56,8 @@ function ownerCard(l, rows){
   var tTax = sum(rows, 'taxable_value'), tC = sum(rows, 'cgst'),
       tS = sum(rows, 'sgst'), tT = sum(rows, 'total');
   return '<div class="lcard">' +
-    '<div class="lhead"><h3>' + l.name + '</h3>' +
-      '<span class="gstin mono">GSTIN ' + l.gstin + '</span></div>' +
+    '<div class="lhead"><h3>' + esc(l.name) + '</h3>' +
+      '<span class="gstin mono">GSTIN ' + esc(l.gstin) + '</span></div>' +
     '<table class="reg"><thead><tr><th>Tenant / Invoice</th><th>Taxable</th>' +
       '<th>CGST</th><th>SGST</th><th>Gross</th></tr></thead><tbody>' + body + '</tbody>' +
     '<tfoot><tr><td>Total (' + rows.length + ' invoices)</td><td>' + inr(tTax) +
